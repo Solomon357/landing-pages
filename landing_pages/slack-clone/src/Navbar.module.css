@@ -1,0 +1,52 @@
+
+
+.headerheader{
+    position: sticky;
+    top: -1px;
+    z-index: 99999;
+    border: 1px solid black;
+    
+}
+
+.headerinner{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.titlelogo{
+    height: 50px;
+    padding: 0 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    max-width: 1180px;
+    
+    border: 1px solid black
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.headernav{
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+    border: 1px solid black;
+    /* margin-right: 10px; */
+}
+
+.login{
+    /* align button to end of its div */
+    cursor: pointer;
+}
+
+
+.signup {
+    cursor: pointer;
+    border: 1px solid black;
+}
