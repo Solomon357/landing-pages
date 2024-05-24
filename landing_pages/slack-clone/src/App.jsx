@@ -562,7 +562,7 @@ function App() {
             </ul>
           </div>
           <div className="flex-[.75] text-[#696969] text-sm text-right">
-            ©2024 Slack Technologies LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owners.
+            ©2024 Slack Technologies LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owner.
           </div>
         </div>
       </footer>
