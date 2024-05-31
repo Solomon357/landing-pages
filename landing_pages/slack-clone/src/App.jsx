@@ -1,5 +1,4 @@
 import styles from './App.module.css';
-import { createSignal } from 'solid-js';
 import Navbar from './Navbar';
 import uberIcon from "./assets/uberIcon.svg"
 import stockImage from "./assets/stockImage.jpg"
@@ -13,27 +12,13 @@ import Tiktok from "./assets/Tiktok.svg"
 import SlackIcon from "./assets/slackBadge.svg"
 
 function App() {
-  //signals instead of state
-  // const [count, setCount] = createSignal(0)
-
-  // const increment = () => {
-  //   setCount(count() + 1)
-  //   console.log(count())
-  // }
-
-  // const decrement = () => {
-  //   setCount(count() - 1)
-  //   console.log(count())
-  // }
-
   return (
-    <div className={styles.App}>
-
+    <div>
       <Navbar />
-      <div id="main" role="main">
+      <main id="main" role="main">
         <section className=" pt-[6.5rem] pb-8 text-center">
           <div className="px-5 mx-auto my-0 max-w-[1330px] text-center">
-            <h1 className="text-[64px] font-bold leading-none tracking-[-.8px] mb-4 border border-black ">
+            <h1 className="text-[3.125rem]">
               Made for People. <span className="text-purple-800">Built for productivity.</span>
             </h1>
             <div>
@@ -133,22 +118,19 @@ function App() {
               <li>
                 <p><span className="text-[50px] font-bold text-purple-800">85%</span></p>
                 <p>
-                  of users say that slack has improved communication
-                  <sup>*</sup>
+                  of users say that slack has improved communication<sup>*</sup>
                 </p>
               </li>
               <li>
                 <p><span className="text-[50px] font-bold text-purple-800">86%</span></p>
                 <p>
-                  feel that their ability to work remotely has improved
-                  <sup>*</sup>
+                  feel that their ability to work remotely has improved<sup>*</sup>
                 </p>
               </li>
               <li>
                 <p><span className="text-[50px] font-bold text-purple-800">88%</span></p>
                 <p>
-                  feel more connected to their teams
-                  <sup>*</sup>
+                  feel more connected to their teams<sup>*</sup>
                 </p>
               </li>
             </ul>
@@ -183,8 +165,8 @@ function App() {
             </div>
           </div>
           <div className="mb-4 pb-2">
-            <p><sup>*</sup>
-              Weighted average. Based on 2,707 survey responses from weekly Slack users in the US, UK, Australia and Canada 
+            <p>
+              <sup>*</sup>Weighted average. Based on 2,707 survey responses from weekly Slack users in the US, UK, Australia and Canada 
               with a ± 2% margin of error at 95%CL (Decemeber 2021)
               </p>
           </div>
@@ -200,8 +182,8 @@ function App() {
             <div className="grid grid-cols-4 gap-x-4 mb-4">
               <a target="_blank" href="nowhere.com" className="bg-white shadow-lg p-3 text-left">
                 <div>
-                  <figure role="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
-                    <img src={stockImage} alt="stock image" />
+                  <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
+                    <img src={stockImage} alt="stock" />
                   </figure>
                   <header>
                     <span>subheading</span>
@@ -214,8 +196,8 @@ function App() {
               </a>
               <a target="_blank" href="nowhere.com" className="bg-white shadow-lg p-3 text-left">
                 <div>
-                  <figure role="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
-                    <img src={stockImage} alt="stock image" />
+                  <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
+                    <img src={stockImage} alt="stock" />
                   </figure>
                   <header>
                     <span>subheading</span>
@@ -228,8 +210,8 @@ function App() {
               </a>
               <a target="_blank" href="nowhere.com" className="bg-white shadow-lg p-3 text-left">
                 <div>
-                  <figure role="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
-                    <img src={stockImage} alt="stock image" />
+                  <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
+                    <img src={stockImage} alt="stock" />
                   </figure>
                   <header>
                     <span>subheading</span>
@@ -242,8 +224,8 @@ function App() {
               </a>
               <a target="_blank" href="nowhere.com" className="bg-white shadow-lg p-3 text-left">
                 <div>
-                  <figure role="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
-                    <img src={stockImage} alt="stock image" />
+                  <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
+                    <img src={stockImage} alt="stock" />
                   </figure>
                   <header>
                     <span>subheading</span>
@@ -257,7 +239,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="flex h-auto min-h-[370px] py-20 bg-purple-800 text-white">
+        <section className="flex h-auto min-h-[370px] py-20 bg-purple-800 text-white background-curve">
           <div className="mx-auto px-6">
             <h3 className="mb-8 text-[3.125rem]">See all that you can accomplish with Slack</h3>
             <a href="nowhere.com" className="inline-block box-border font-semibold text-lg py-[17px] px-[32px] rounded-md border-2 border-white bg-white text-purple-800 cursor-pointer mr-2">
@@ -268,11 +250,11 @@ function App() {
             </a>
           </div>
         </section>
-      </div>
+      </main>
 
       <footer className="w-100% mx-auto">
         <div className="superFooter flex justify-between pt-14 pb-12 mx-8">
-          <a href="#" role="button" className="flex">
+          <a href="#top" className="flex">
             <img src={globeIcon} className="mr-1" height="18" width="18" alt="globe icon" />
             <span className=" font-semibold">Change region</span>
           </a>
@@ -287,7 +269,7 @@ function App() {
                 <img src={Insta} width="18" height="18" alt="Linkedin" />
               </a>
             </li>
-            <li class="listitem-social">
+            <li className="listitem-social">
               <a href="nowhere.com">
                 <img src={Facebook} width="18" height="18" alt="Linkedin" />
               </a>
@@ -310,7 +292,7 @@ function App() {
           </ul>
         </div>
         <div className="flex justify-between py-12 mx-8 border-y-[1px] border-[#edeaed]">
-          <a className="block mr-8" href="#">
+          <a className="block mr-8" href="#top">
             <img src={SlackIcon} width="54" height="54" alt="slack icon" />
           </a>
           <nav className="block text-left" role="navigation">

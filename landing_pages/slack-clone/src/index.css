@@ -3,19 +3,102 @@
 @tailwind utilities;
 
 
+/* custom slide animation for navbar */
+@keyframes slide-in--down {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slide-out--up {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-110%);
+  }
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+  font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f5f7fa;
 }
 
+h1{
+  margin: .67em 0;
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -.8px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.is-fixed {
+  position: fixed;
+  left: 7%;
+  border-bottom: none;
+  animation: slide-in--down 420ms cubic-bezier(.165,.84,.44,1);
+  border-radius: 50px;
+  margin-top: .5rem;
+  padding: 0 2.225rem;
+  max-width: 81.25rem;
+  background-color: white;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, .08);
+}
+
+.dismiss-nav {
+  animation: slide-out--up 420ms cubic-bezier(.165,.84,.44,1);
+}
+.header-items{
+  padding: .25rem .75rem;
+  font-size: .9375rem;
+  font-weight: 700;
+}
+.nav_label {
+  position: relative;
+  padding-right: 1rem;
+}
+.nav_label::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 45%;
+  right: 5%;
+  width: 8px;
+  height: 5px;
+  background-size: 8px 5px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-image: url(/3099b/marketing/img/icons/icon_chevron_black_nav.svg);
+  /* transition: transform .1s cubic-bezier(.165,.84,.44,1); */
+  
+}
+
+.nav-buttons{
+  height: 45px;
+  font-size: .875rem;
+  margin-left: 1.25rem;
+  padding: .75rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.background-curve {
+  clip-path: ellipse(75% 100% at center top);
 }
 
 .listitem-social{
