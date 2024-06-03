@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return ( 
     <header role="banner">
-      <nav id="Nav" className="block w-[100%] h-20 z-[1000] bg-transparent absolute top-0 border border-b-green-500">
+      <nav id="Nav" className="block w-[100%] h-20 z-[1000] bg-transparent absolute top-0">
         <div className="flex justify-between items-center gap-4 max-w-[76.875rem] mx-auto">
           <div className="flex gap-1 items-center">
             <img src={SlackIcon} className="w-6 h-6 align-top" alt="logo"/>
