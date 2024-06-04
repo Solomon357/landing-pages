@@ -1,12 +1,15 @@
+import UIVideo from "../assets/web-ui-animated.mp4"
+import UIVideoPoster from "../assets/ui-animation-poster.jpg"
 
 const FeaturesSection = () => {
   return ( 
     <>
-      <section className=" bg-[#f4ede4] py-12">
-        <div className=" flex max-w-[80rem] items-center mx-auto">
-          <div className=" rounded-md border border-black">
-            <video loop mute playsinline  >
-              <source src="find out soon.mp4"/>
+      <section className="bg-[#f4ede4] py-12">
+        <div className="grid grid-cols-2 gap-[11%] max-w-[76.875rem] items-center mx-auto">
+          <div>
+            <video className="curve-video-right border" loop muted playsInline autoPlay>
+              <source src={UIVideo}/>
+              <p> Video here soon</p>
             </video>
           </div>
           <div>
@@ -17,8 +20,8 @@ const FeaturesSection = () => {
         </div>
       </section>
 
-      <section className=" bg-[#f4ede4] py-12">
-        <div className=" flex max-w-[80rem] items-center mx-auto">
+      <section className="bg-[#f4ede4] py-12">
+        <div className="grid grid-cols-2 gap-[11%] max-w-[76.875rem] items-center mx-auto">
           <div>
             <h2>Choose how you want to work</h2>
             <p>In Slack, you've got all the flexibility to work when, where 
@@ -28,19 +31,19 @@ const FeaturesSection = () => {
             <a href="nowhere..com">Learn more about flexible communication</a>
           </div>
 
-          <div className=" rounded-md border border-black">
-            <video loop mute playsinline  >
-              <source src="find out soon.mp4"/>
+          <div>
+            <video className="curve-video-left border" loop muted playsInline>
+              <source src={UIVideo}/>
             </video>
           </div>
         </div>
       </section>
 
-      <section className=" bg-[#f4ede4] py-12">
-        <div className=" flex max-w-[80rem] items-center mx-auto">
-          <div className=" rounded-md border border-black">
-            <video loop mute playsinline>
-              <source src="find out soon.mp4"/>
+      <section className="bg-[#f4ede4] py-12">
+        <div className="grid grid-cols-2 gap-[11%] max-w-[76.875rem] items-center mx-auto">
+          <div>
+            <video className="curve-video-right border" loop muted playsInline>
+              <source src={UIVideo}/>
             </video>
           </div>
           <div>

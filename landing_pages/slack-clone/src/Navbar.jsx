@@ -74,8 +74,8 @@ const Navbar = () => {
               <img src={searchIcon} className="cursor-pointer" width="20" height="20" alt="search icon" />
             </button>
             <div>
-              <a href="nowhere.com" className="nav-buttons font-semibold w-auto transition-all text-purple-800 border border-purple-800 hover:border-2">TALK TO SALES</a>
-              <a href="nowhere.com" className="nav-buttons font-semibold transition-all duration-500 bg-purple-800 hover:bg-purple-950 text-white">SIGN IN</a>
+              <a href="nowhere.com" className="nav-buttons text-purple-800">TALK TO SALES</a>
+              <a href="nowhere.com" className="nav-buttons bg-purple-800 hover:bg-purple-900 text-white">SIGN IN</a>
             </div>
           </nav>
       </div>

@@ -5,8 +5,8 @@ const QuoteSection = () => {
       <div className="swiper wrapper? Not sure what this means yet">
         <div className="swiper-slide">
           <section className="flex">
-            <div className=" rounded-md border border-black">
-              <video loop mute playsinline>
+            <div  >
+              <video className="curve-video-right border border-black" loop muted playsInline>
                 <source src="find out soon.mp4"/>
               </video>
             </div>
@@ -25,8 +25,8 @@ const QuoteSection = () => {
           </section>
         </div>
       </div>
-      <div className="mb-4 pb-2">
-        <p>
+      <div className="mb-4 pb-2 text-center">
+        <p className="stat-text text-gray-500">
           <sup>*</sup>Weighted average. Based on 2,707 survey responses from weekly Slack users in the US, UK, Australia and Canada 
           with a ± 2% margin of error at 95%CL (Decemeber 2021)
           </p>

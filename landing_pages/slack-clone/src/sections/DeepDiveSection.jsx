@@ -1,4 +1,4 @@
-import stockImage from "./assets/stockImage.jpg"
+import stockImage from "../assets/stockImage.jpg"
 
 const DeepDiveSection = () => {
 
