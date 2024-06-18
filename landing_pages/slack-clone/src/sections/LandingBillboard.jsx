@@ -11,7 +11,7 @@ import UIVideoPoster from "../assets/ui-animation-poster.jpg"
 const LandingBillboard = () => {
 
   return ( 
-  <section className=" pt-[6.5rem] pb-8 text-center">
+  <section className="landing-bg pt-[6.5rem] pb-8 text-center">
     <div className="px-5 mx-auto my-0 max-w-[1330px] text-center">
       <h1 className="text-[3.125rem]">
         Made for People. <span className="text-purple-800">Built for productivity.</span>

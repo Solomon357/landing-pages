@@ -1,13 +1,16 @@
+import UIVideo from "../assets/web-ui-animated.mp4"
+
+
 const QuoteSection = () => {
   return ( 
     <section>
       <div className="a translucent background for the video i think"></div>
       <div className="swiper wrapper? Not sure what this means yet">
         <div className="swiper-slide">
-          <section className="flex">
-            <div  >
-              <video className="curve-video-right border border-black" loop muted playsInline>
-                <source src="find out soon.mp4"/>
+          <section className="grid grid-cols-2 gap-4 items-center h-[500px]">
+            <div className="">
+              <video className="curve-video-right max-h-[400px]" loop muted playsInline>
+                <source src={UIVideo} />
               </video>
             </div>
             <div className="flex flex-col p-8 text-left">

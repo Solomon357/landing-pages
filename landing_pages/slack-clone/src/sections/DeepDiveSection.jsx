@@ -10,61 +10,61 @@ const DeepDiveSection = () => {
         </header>
       </div>
       <div className="pb-6 px-[4vw]">
-        <div className="grid grid-cols-4 gap-x-4 mb-4">
-          <a target="_blank" href="nowhere.com" className="bg-white shadow-lg p-3 text-left">
+        <div className="grid grid-cols-4 gap-x-[1%] mb-4 mt-8 justify-center max-w-[1230px] mx-auto">
+          <a target="_blank" href="nowhere.com" className="link-card shadow-lg">
             <div>
               <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
                 <img src={stockImage} alt="stock" />
               </figure>
               <header>
-                <span>subheading</span>
-                <h3>Ready for the future of AI in Slack?</h3>
+                <span className="link-card-subheadings">Event</span>
+                <h3 className="link-card-headers">Ready for the future of AI in Slack?</h3>
               </header>
             </div>
-            <div>
-              <span>WATCH ON DEMAND</span>
+            <div className="flex flex-initial mt-auto mr-10">
+              <span className="text-[.875rem] text-sky-700">WATCH ON DEMAND</span>
             </div>
           </a>
-          <a target="_blank" href="nowhere.com" className="bg-white shadow-lg p-3 text-left">
+          <a target="_blank" href="nowhere.com" className="link-card shadow-lg">
             <div>
               <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
                 <img src={stockImage} alt="stock" />
               </figure>
               <header>
-                <span>subheading</span>
-                <h3>Ten features to know (and love) on Slack's tenth birthday</h3>
+              <span className="link-card-subheadings">Blog</span>
+                <h3 className="link-card-headers">Ten features to know (and love) on Slack's tenth birthday</h3>
               </header>
             </div>
-            <div>
-              <span>READ MORE</span>
+            <div className="flex flex-initial mt-auto mr-10">
+              <span className="text-[.875rem] text-sky-700">READ MORE</span>
             </div>
           </a>
-          <a target="_blank" href="nowhere.com" className="bg-white shadow-lg p-3 text-left">
+          <a target="_blank" href="nowhere.com" className="link-card shadow-lg">
             <div>
               <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
                 <img src={stockImage} alt="stock" />
               </figure>
               <header>
-                <span>subheading</span>
-                <h3>How OpenAI expands ChatGPT with Slack</h3>
+                <span className="link-card-subheadings">Customer story</span>
+                <h3 className="link-card-headers">How OpenAI expands ChatGPT with Slack</h3>
               </header>
             </div>
-            <div>
-              <span>READ MORE</span>
+            <div className="flex flex-initial mt-auto mr-10">
+              <span className="text-[.875rem] text-sky-700">READ MORE</span>
             </div>
           </a>
-          <a target="_blank" href="nowhere.com" className="bg-white shadow-lg p-3 text-left">
+          <a target="_blank" href="nowhere.com" className="link-card shadow-lg">
             <div>
               <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
                 <img src={stockImage} alt="stock" />
               </figure>
               <header>
-                <span>subheading</span>
-                <h3>Top Slack tips to boost productivity</h3>
+                <span className="link-card-subheadings">Webinar</span>
+                <h3 className="link-card-headers">Top Slack tips to boost productivity</h3>
               </header>
             </div>
-            <div>
-              <span>WATCH NOW</span>
+            <div className="flex flex-initial mt-auto mr-10">
+              <span className="text-[.875rem] text-sky-700">WATCH NOW</span>
             </div>
           </a>
         </div>
