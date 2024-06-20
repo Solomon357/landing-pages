@@ -17,7 +17,7 @@ const FeaturesSection = () => {
               Automate away routine tasks with the power of generative AI 
               and simplify your workflow with all your favourite apps ready to go in Slack.
             </p>
-            <a className="text-lg text-blue-950 hover:underline" href="nowhere..com">Learn more about the Slack platform</a>
+            <a className="feature-link hover:underline" href="nowhere..com">Learn more about the Slack platform</a>
           </div>
         </div>
       </section>
@@ -30,7 +30,7 @@ const FeaturesSection = () => {
               and how it's best for you. You can easily chat, send audio and 
               video clips, or join a huddle to talk things through live.
             </p>
-            <a className="text-lg text-blue-950 hover:underline" href="nowhere..com">Learn more about flexible communication</a>
+            <a className="feature-link hover:underline" href="nowhere..com">Learn more about flexible communication</a>
           </div>
 
           <div>
@@ -56,7 +56,7 @@ const FeaturesSection = () => {
               channels, it's easier to connect across apartments, offices,
               time zones and even other companies. 
             </p>
-            <a className="text-lg text-blue-950 hover:underline" href="nowhere..com">Learn more about channels</a>
+            <a className="feature-link hover:underline" href="nowhere..com">Learn more about channels</a>
           </div>
         </div>
       </section>

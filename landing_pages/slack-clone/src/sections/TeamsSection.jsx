@@ -29,7 +29,14 @@ const TeamsSection = () => {
           </p>
         </li>
       </ul>
-      <div className="emojis n stuff goes here with -z-10"></div>
+      <div className="emojis n stuff goes here with -z-10">
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+      </div>
     </div>
   </section>
   );

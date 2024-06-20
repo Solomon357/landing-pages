@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --right-arrow-card: url(data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%2025%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20stroke%3D%22%231264A3%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M1.548%207h21.904%22%2F%3E%3Cpath%20stroke-linejoin%3D%22round%22%20d%3D%22M17%201l7%206-7%206%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
+  --right-arrow-feature: url(data:image/svg+xml;charset=utf-8,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1%206a.5.5%200%200%200%200%201V6zM12.854.646a.5.5%200%200%200-.708.708l.708-.708zM18%206.5l.354.354a.5.5%200%200%200%200-.708L18%206.5zm-5.854%205.146a.5.5%200%200%200%20.708.708l-.708-.708zM1%207h16.5V6H1v1zm16.646-.854l-5.5%205.5.708.708%205.5-5.5-.708-.708zm-5.5-4.792l2.75%202.75.708-.708-2.75-2.75-.708.708zm2.75%202.75l2.75%202.75.708-.708-2.75-2.75-.708.708z%22%20fill%3D%22%231264A3%22%2F%3E%3C%2Fsvg%3E);
+  --nav-icon: url(navIcon.svg);
+}
 
 /* custom slide animation for navbar */
 @keyframes slide-in--down {
@@ -81,7 +86,8 @@ h2 {
   background-size: 8px 5px;
   background-repeat: no-repeat;
   background-position-y: center;
-  background-image: url(/3099b/marketing/img/icons/icon_chevron_black_nav.svg);
+  background-image: var(--nav-icon);
+  box-sizing: inherit;
   /* transition: transform .1s cubic-bezier(.165,.84,.44,1); */
 }
 
@@ -109,6 +115,22 @@ h2 {
   height: 100%;
   background: linear-gradient(white 65%, #f4ede4 0);
 }
+
+.feature-link {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: rgb(7 89 133);
+}
+
+.feature-link::after {
+  background-image: var(--right-arrow-feature);
+  content: '';
+  width: 19px;
+  height: 13px;
+  display: inline-block;
+  margin-left: .5em;
+}
+
 
 .buttons {
   display: inline-block;
@@ -194,6 +216,16 @@ h2 {
 .link-card:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
   transform: scale(1.05);
+}
+
+.link-card::after{
+  content: '';
+  width: 25px;
+  height: 14px;
+  position: absolute;
+  bottom: 18px;
+  right: 15px;
+  background-image:var(--right-arrow-card)
 }
 
 .link-card-headers{

@@ -6,6 +6,7 @@ import Linkedin from "./assets/Linkedin.svg"
 import Youtube from "./assets/Youtube.svg"
 import Tiktok from "./assets/Tiktok.svg"
 import SlackIcon from "./assets/slackBadge.svg"
+import DownloadIcon from "./assets/downloadIcon.svg"
 
 const Footer = () => {
   return ( 
@@ -281,10 +282,10 @@ const Footer = () => {
       </div>
       <div className="flex justify-between items-baseline py-8 mx-8">
         <div className="flex items-center">
+          <a href="nowhere.com" className="text-sky-800 font-semibold">Download Slack</a>
           <a href="nowhere.com">
-            <img width="40" height="40" src="" alt="" />
+            <img width="20" height="20" src={DownloadIcon} alt="download" />
           </a>
-          <a href="nowhere.com">Download Slack</a>
           <ul className="flex text-sm">
             <li className="pl-4">
               <a href="nowhere.com">Privacy</a>

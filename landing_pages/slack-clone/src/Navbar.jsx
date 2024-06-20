@@ -50,7 +50,7 @@ const Navbar = () => {
               </li>
               <li className="header-items">
                 <a href="nowhere.com">
-                  <div className="nav_label align-middle hover:underline cursor-pointer">
+                  <div className="nav_items align-middle hover:underline cursor-pointer">
                     <div>Enterprise</div>
                   </div>
                 </a>
