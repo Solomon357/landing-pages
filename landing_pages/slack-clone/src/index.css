@@ -6,6 +6,8 @@
   --right-arrow-card: url(data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%2025%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20stroke%3D%22%231264A3%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M1.548%207h21.904%22%2F%3E%3Cpath%20stroke-linejoin%3D%22round%22%20d%3D%22M17%201l7%206-7%206%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
   --right-arrow-feature: url(data:image/svg+xml;charset=utf-8,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1%206a.5.5%200%200%200%200%201V6zM12.854.646a.5.5%200%200%200-.708.708l.708-.708zM18%206.5l.354.354a.5.5%200%200%200%200-.708L18%206.5zm-5.854%205.146a.5.5%200%200%200%20.708.708l-.708-.708zM1%207h16.5V6H1v1zm16.646-.854l-5.5%205.5.708.708%205.5-5.5-.708-.708zm-5.5-4.792l2.75%202.75.708-.708-2.75-2.75-.708.708zm2.75%202.75l2.75%202.75.708-.708-2.75-2.75-.708.708z%22%20fill%3D%22%231264A3%22%2F%3E%3C%2Fsvg%3E);
   --nav-icon: url(navIcon.svg);
+  --light-red : rgba(248, 113, 113);
+  --light-red-hover : rgba(239, 68, 68);
 }
 
 /* custom slide animation for navbar */
@@ -32,7 +34,7 @@ body {
   font-family: Slack-Larsseit, 'Helvetica Neue', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f5f7fa;
+  background-color: #ffffff;
 
 }
 
@@ -51,6 +53,13 @@ h2 {
   line-height: 1.12;
   letter-spacing: -.8px;
   margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: #f87171;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: bold;
 }
 
 .is-fixed {
@@ -103,17 +112,17 @@ h2 {
   padding: .75rem 1rem;
   border-radius: 4px;
   transition: all 420ms;
-  box-shadow: inset 0 0 0 1px rgba(107, 33, 168);
+  box-shadow: inset 0 0 0 1px var(--light-red);
   cursor: pointer;
 }
 
 .nav-buttons:hover {
-  box-shadow: inset 0 0 0 2px rgba(107, 33, 168);
+  box-shadow: inset 0 0 0 2px var(--light-red-hover);
 }
 
 .landing-bg {
   height: 100%;
-  background: linear-gradient(white 65%, #f4ede4 0);
+  background: linear-gradient(transparent 65%, #f4ede4 0);
 }
 
 .feature-link {
@@ -144,12 +153,13 @@ h2 {
   border-radius: 4px;
   transition: all 420ms;
   cursor: pointer;
-  box-shadow: inset 0 0 0 1px rgba(107, 33, 168);
+  box-shadow: inset 0 0 0 1px var(--light-red);
 }
 
 .buttons:hover {
-  box-shadow: inset 0 0 0 3px rgba(107, 33, 168);
+  box-shadow: inset 0 0 0 3px var(--light-red-hover);
 }
+
 .buttons-alt {
   display: inline-block;
   box-sizing: border-box;

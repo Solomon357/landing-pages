@@ -18,7 +18,7 @@ const DeepDiveSection = () => {
               </figure>
               <header>
                 <span className="link-card-subheadings">Event</span>
-                <h3 className="link-card-headers">Ready for the future of AI in Slack?</h3>
+                <h3 className="link-card-headers">Ready for the future of AI with AppBrand?</h3>
               </header>
             </div>
             <div className="flex flex-initial mt-auto mr-10">
@@ -32,7 +32,7 @@ const DeepDiveSection = () => {
               </figure>
               <header>
               <span className="link-card-subheadings">Blog</span>
-                <h3 className="link-card-headers">Ten features to know (and love) on Slack's tenth birthday</h3>
+                <h3 className="link-card-headers">Ten features to know (and love)</h3>
               </header>
             </div>
             <div className="flex flex-initial mt-auto mr-10">
@@ -46,7 +46,7 @@ const DeepDiveSection = () => {
               </figure>
               <header>
                 <span className="link-card-subheadings">Customer story</span>
-                <h3 className="link-card-headers">How OpenAI expands ChatGPT with Slack</h3>
+                <h3 className="link-card-headers">How OpenAI expands ChatGPT with AppBrand</h3>
               </header>
             </div>
             <div className="flex flex-initial mt-auto mr-10">
@@ -60,7 +60,7 @@ const DeepDiveSection = () => {
               </figure>
               <header>
                 <span className="link-card-subheadings">Webinar</span>
-                <h3 className="link-card-headers">Top Slack tips to boost productivity</h3>
+                <h3 className="link-card-headers">Top AppBrand tips to boost productivity</h3>
               </header>
             </div>
             <div className="flex flex-initial mt-auto mr-10">

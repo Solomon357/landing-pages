@@ -17,21 +17,23 @@ const QuoteSection = () => {
               <figure></figure>
               <p>
                 'Many technology employees were gravitating 
-                naturally to Slack. So we followed our users to
+                naturally to AppBrand. So we followed our users to
                 what has become one of our most important
                 tools.' 
               </p>
-              <span className="font-bold">Matt Beal</span>
-              <span>Director of Technology Strategy and Architecture, Vodafone</span>
-              <a href="nowhere.com">See more customer stories</a>
+              <br />
+              <span className="font-bold">John Doe</span>
+              <span>Director of Technology Strategy and Architecture</span>
+              <br />
+              <a href="nowhere.com" className="text-gray-700">See more customer stories</a>
             </div>
           </section>
         </div>
       </div>
       <div className="mb-4 pb-2 text-center">
         <p className="stat-text text-gray-500">
-          <sup>*</sup>Weighted average. Based on 2,707 survey responses from weekly Slack users in the US, UK, Australia and Canada 
-          with a ± 2% margin of error at 95%CL (Decemeber 2021)
+          <sup>*</sup>Weighted average. Based on 2,707 survey responses from weekly AppBrand users in the US, UK, Australia and Canada 
+          with a ± 2% margin of error at 95%CL (Decemeber 2024)
           </p>
       </div>
     </section>

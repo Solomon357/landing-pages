@@ -5,7 +5,7 @@ import Insta from "./assets/Instagram.svg"
 import Linkedin from "./assets/Linkedin.svg"
 import Youtube from "./assets/Youtube.svg"
 import Tiktok from "./assets/Tiktok.svg"
-import SlackIcon from "./assets/slackBadge.svg"
+import BrandIcon from "./assets/brandIcon.svg"
 import DownloadIcon from "./assets/downloadIcon.svg"
 
 const Footer = () => {
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-between py-12 mx-8 border-y-[1px] border-[#edeaed]">
         <a className="block mr-8" href="#top">
-          <img src={SlackIcon} width="54" height="54" alt="slack icon" />
+          <img src={BrandIcon} width="74" height="74" alt="AppBrand icon" />
         </a>
         <nav className="block text-left" role="navigation">
           <ul className="expanded-footer text-lg">
@@ -81,11 +81,11 @@ const Footer = () => {
                 </li> 
               </ul>
             </li>
-            <li id="footer_why_slack" className="nav_parent_l1">
-              <div className="uppercase pb-2 font-semibold">Why Slack?</div>
+            <li id="footer_why_AppBrand" className="nav_parent_l1">
+              <div className="uppercase pb-2 font-semibold">Why AppBrand?</div>
               <ul>
                 <li className="footer-link" >
-                  <a href="nowhere.com">Slack vs email</a>
+                  <a href="nowhere.com">AppBrand vs The Future</a>
                 </li>
                 <li className="footer-link">
                   <a href="nowhere.com">Enterprise</a>
@@ -114,7 +114,7 @@ const Footer = () => {
                   <a href="nowhere.com">Channels</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Slack Connect</a>
+                  <a href="nowhere.com">AppBrand Connect</a>
                 </li>
                 <li className="footer-link">
                   <a href="nowhere.com">Workflow Builder</a>
@@ -141,7 +141,7 @@ const Footer = () => {
                   <a href="nowhere.com">File sharing</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Slack AI</a>
+                  <a href="nowhere.com">AppBrand AI</a>
                 </li>
                 <li className="footer-link">
                   <a href="nowhere.com">Security</a>
@@ -150,7 +150,7 @@ const Footer = () => {
                   <a href="nowhere.com">Enterprise Key Management</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Slack Atlas</a>
+                  <a href="nowhere.com">AppBrand Atlas</a>
                 </li>
               </ul>
             </li>
@@ -217,7 +217,7 @@ const Footer = () => {
                   <a href="nowhere.com">Resources library</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Slack blog</a>
+                  <a href="nowhere.com">AppBrand blog</a>
                 </li>
                 <li className="footer-link">
                   <a href="nowhere.com">Community</a>
@@ -241,7 +241,7 @@ const Footer = () => {
                   <a href="nowhere.com">App Directory</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Slack Certified</a>
+                  <a href="nowhere.com">AppBrand Certified</a>
                 </li>
               </ul>
             </li>
@@ -264,7 +264,7 @@ const Footer = () => {
                   <a href="nowhere.com">Careers</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Slack shop</a>
+                  <a href="nowhere.com">AppBrand shop</a>
                 </li>
                 <li className="footer-link">
                   <a href="nowhere.com">Engineering blog</a>
@@ -282,7 +282,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-between items-baseline py-8 mx-8">
         <div className="flex items-center">
-          <a href="nowhere.com" className="text-sky-800 font-semibold">Download Slack</a>
+          <a href="nowhere.com" className="text-sky-800 font-semibold">Download AppBrand</a>
           <a href="nowhere.com">
             <img width="20" height="20" src={DownloadIcon} alt="download" />
           </a>
@@ -302,7 +302,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex-[.75] text-[#696969] text-sm text-right">
-          ©2024 Slack Technologies LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owner.
+          ©2024 AppBrand Technologies LLC, a Salesforce company. All rights reserved. Various trademarks held by their respective owner.
         </div>
       </div>
     </footer>

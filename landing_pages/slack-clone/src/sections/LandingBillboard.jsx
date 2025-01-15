@@ -14,11 +14,11 @@ const LandingBillboard = () => {
   <section className="landing-bg pt-[6.5rem] pb-8 text-center">
     <div className="px-5 mx-auto my-0 max-w-[1330px] text-center">
       <h1 className="text-[3.125rem]">
-        Made for People. <span className="text-purple-800">Built for productivity.</span>
+        A clean landing page. <span className="text-red-400">Built for the modern day.</span>
       </h1>
       <div>
         <div className="flex justify-center">
-          <a href="nowhere.com" className="buttons bg-purple-800 text-white hover:bg-purple-900">
+          <a href="nowhere.com" className="buttons bg-red-400 text-white hover:bg-red-500">
             SIGN UP WITH EMAIL ADDRESS 
           </a>
           <div className="ml-2 relative">
@@ -31,12 +31,13 @@ const LandingBillboard = () => {
           </div>
         </div>
         <p className="block max-w-[465px] text-base tracking-[.1px] mx-auto mt-[35px] mb-[27px]">
-          <b>Slack is free to try</b> for as long as you like
+          <b>Lorem Ipsum</b> fugiat sunt sit et eu laborum commodo.Eiusmod velit laboris adipisicing anim occaecat elit ullamco amet nulla.
         </p>
       </div>
 
       <section>
         <div className="text-center px-36">
+          <h3 className="subtitle mb-4">Brands that rely on us</h3>
           <ul className="flex justify-around justify-items-center mx-auto">
             <li><img src={AppleIcon} alt="uber icon" height="35" width="84"/></li>
             <li><img src={SamsungIcon} alt="uber icon" height="35" width="84"/></li>
