@@ -11,10 +11,11 @@ export default defineConfig({
     // devtools(),
     solidPlugin(),
   ],
-  server: {
-    port: 3000,
-  },
+  // server: {
+  //   port: 3000,
+  // },
   build: {
     target: 'esnext',
   },
+  base: '/modern-landing-page/'
 });
