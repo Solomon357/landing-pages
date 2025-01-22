@@ -1,5 +1,5 @@
 {
-  "name": "vite-template-solid",
+  "name": "modern-landing-page",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -19,8 +19,8 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "modern-landing-page": "file:",
     "solid-bootstrap": "^1.0.20",
-    "solid-js": "^1.8.11",
-    "vite-template-solid": "file:"
+    "solid-js": "^1.8.11"
   }
 }
