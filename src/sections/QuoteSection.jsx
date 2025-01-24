@@ -16,10 +16,9 @@ const QuoteSection = () => {
             <div className="flex flex-col p-8 text-left">
               <figure></figure>
               <p>
-                'Many technology employees were gravitating 
-                naturally to AppBrand. So we followed our users to
-                what has become one of our most important
-                tools.' 
+                'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quae laboriosam, hic ea 
+                dolores sunt obcaecati libero nesciunt dignissimos doloremque quos totam soluta molestiae similique 
+                id velit.'
               </p>
               <br />
               <span className="font-bold">John Doe</span>

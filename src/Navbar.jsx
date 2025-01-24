@@ -112,12 +112,12 @@ const Navbar = () => {
               </li>
             </ul>
             <button className=" mr-6 mt-1" onClick={() => document.getElementById("SearchBar").classList.add("show")}>
-              <img src={searchIcon} className="cursor-pointer" width="20" height="20" alt="search icon" />
+              <i className="fa fa-search text-xl"></i>
             </button>
             <div id="SearchBar" className="search-bar">
               <input type="text" placeholder="Looking for something?... " className="" />
               <button onClick={() => document.getElementById("SearchBar").classList.remove("show")}>
-                <i class="fa fa-close" style="font-size:24px"></i>
+                <i class="fa fa-close text-xl"></i>
               </button>
               </div>
             <div>
