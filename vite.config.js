@@ -17,5 +17,5 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
-  base: '/modern-landing-page-01/'
+  base: '/modern-landing-page/'
 });
