@@ -1,5 +1,5 @@
 {
-  "name": "modern-landing-page",
+  "name": "modern-landing-page-01",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -20,6 +20,7 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "modern-landing-page": "file:",
+    "modern-landing-page-01": "file:",
     "solid-bootstrap": "^1.0.20",
     "solid-js": "^1.8.11"
   }

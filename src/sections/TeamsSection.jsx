@@ -13,8 +13,8 @@ const TeamsSection = () => {
       <h3 className="text-[3.125rem] font-bold mb-4 mt-12">AppBrand caters to teams large and small</h3>
       <p>AppBrand lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <div className=" mb-16 mt-4">
-        <a className="buttons mr-2 bg-red-400 text-white hover:bg-red-500" href="nowhere.com">MEET APPBRAND FOR ENTERPRISE</a>
-        <a className="buttons bg-white text-red-400 hover:text-red-400" href="nowhere.com">TALK TO SALES</a>
+        <a className="buttons mr-2 bg-red-400 text-white hover:bg-red-500" href="#top">MEET APPBRAND FOR ENTERPRISE</a>
+        <a className="buttons bg-white text-red-400 hover:text-red-400" href="#top">TALK TO SALES</a>
       </div>
       <ul className="flex justify-around justify-items-center mx-auto">
         <li className="max-w-48 text-left">

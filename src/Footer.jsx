@@ -18,32 +18,32 @@ const Footer = () => {
         </a>
         <ul className="flex h-5">
           <li className="listitem-social">
-            <a href="nowhere.com">
+            <a href="#top">
               <img src={Linkedin} width="18" height="18" alt="Linkedin" />
             </a>
           </li>
           <li className="listitem-social">
-            <a href="nowhere.com">
+            <a href="#top">
               <img src={Insta} width="18" height="18" alt="Linkedin" />
             </a>
           </li>
           <li className="listitem-social">
-            <a href="nowhere.com">
+            <a href="#top">
               <img src={Facebook} width="18" height="18" alt="Linkedin" />
             </a>
           </li>
           <li className="listitem-social">
-            <a href="nowhere.com">
+            <a href="#top">
               <img src={Twitter} width="18" height="18" alt="Linkedin" />
             </a>
           </li>
           <li className="listitem-social">
-            <a href="nowhere.com">
+            <a href="#top">
               <img src={Youtube} width="18" height="18" alt="Linkedin" />
             </a>
           </li>
           <li className="listitem-social">
-            <a href="nowhere.com">
+            <a href="#top">
               <img src={Tiktok} width="18" height="18" alt="Linkedin" />
             </a>
           </li>
@@ -59,25 +59,25 @@ const Footer = () => {
               <div className="uppercase pb-2 font-semibold">Product</div>
               <ul>
                 <li className="footer-link" >
-                  <a href="nowhere.com">Watch demo</a>
+                  <a href="#top">Watch demo</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Pricing</a>
+                  <a href="#top">Pricing</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Paid vs Free</a>
+                  <a href="#top">Paid vs Free</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Watch demo</a>
+                  <a href="#top">Watch demo</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Accessibility</a>
+                  <a href="#top">Accessibility</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Featured releases</a>
+                  <a href="#top">Featured releases</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Change log</a>
+                  <a href="#top">Change log</a>
                 </li> 
               </ul>
             </li>
@@ -85,25 +85,25 @@ const Footer = () => {
               <div className="uppercase pb-2 font-semibold">Why AppBrand?</div>
               <ul>
                 <li className="footer-link" >
-                  <a href="nowhere.com">AppBrand vs The Future</a>
+                  <a href="#top">AppBrand vs The Future</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Enterprise</a>
+                  <a href="#top">Enterprise</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Small business</a>
+                  <a href="#top">Small business</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Productivity</a>
+                  <a href="#top">Productivity</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Task management</a>
+                  <a href="#top">Task management</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Scale</a>
+                  <a href="#top">Scale</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Trust</a>
+                  <a href="#top">Trust</a>
                 </li> 
               </ul>
             </li>
@@ -111,46 +111,46 @@ const Footer = () => {
               <div className="uppercase pb-2 font-semibold">Features</div>
               <ul>
                 <li className="footer-link" >
-                  <a href="nowhere.com">Channels</a>
+                  <a href="#top">Channels</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">AppBrand Connect</a>
+                  <a href="#top">AppBrand Connect</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Workflow Builder</a>
+                  <a href="#top">Workflow Builder</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Messaging</a>
+                  <a href="#top">Messaging</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Huddles</a>
+                  <a href="#top">Huddles</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Canvas</a>
+                  <a href="#top">Canvas</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Clips</a>
+                  <a href="#top">Clips</a>
                 </li> 
                 <li className="footer-link" >
-                  <a href="nowhere.com">Search</a>
+                  <a href="#top">Search</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Apps & integration</a>
+                  <a href="#top">Apps & integration</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">File sharing</a>
+                  <a href="#top">File sharing</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">AppBrand AI</a>
+                  <a href="#top">AppBrand AI</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Security</a>
+                  <a href="#top">Security</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Enterprise Key Management</a>
+                  <a href="#top">Enterprise Key Management</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">AppBrand Atlas</a>
+                  <a href="#top">AppBrand Atlas</a>
                 </li>
               </ul>
             </li>
@@ -158,49 +158,49 @@ const Footer = () => {
               <div className="uppercase pb-2 font-semibold">Solutions</div>
               <ul>
                 <li className="footer-link" >
-                  <a href="nowhere.com">Engineering</a>
+                  <a href="#top">Engineering</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">IT</a>
+                  <a href="#top">IT</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Customer service</a>
+                  <a href="#top">Customer service</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Sales</a>
+                  <a href="#top">Sales</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Project management</a>
+                  <a href="#top">Project management</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Marketing</a>
+                  <a href="#top">Marketing</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Security</a>
+                  <a href="#top">Security</a>
                 </li>
                 <li className="footer-link" >
-                  <a href="nowhere.com">Technology</a>
+                  <a href="#top">Technology</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Media</a>
+                  <a href="#top">Media</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Financial services</a>
+                  <a href="#top">Financial services</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Retail</a>
+                  <a href="#top">Retail</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Public sector</a>
+                  <a href="#top">Public sector</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Education</a>
+                  <a href="#top">Education</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Health and life sciences</a>
+                  <a href="#top">Health and life sciences</a>
                 </li> 
                 <li className="footer-link">
-                  <a href="nowhere.com">See all solutions</a>
+                  <a href="#top">See all solutions</a>
                 </li> 
               </ul>
             </li>
@@ -208,40 +208,40 @@ const Footer = () => {
               <div className="uppercase pb-2 font-semibold">Resources</div>
               <ul>
                 <li className="footer-link" >
-                  <a href="nowhere.com">Help Centre</a>
+                  <a href="#top">Help Centre</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">What's new</a>
+                  <a href="#top">What's new</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Resources library</a>
+                  <a href="#top">Resources library</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">AppBrand blog</a>
+                  <a href="#top">AppBrand blog</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Community</a>
+                  <a href="#top">Community</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Customer stories</a>
+                  <a href="#top">Customer stories</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Events</a>
+                  <a href="#top">Events</a>
                 </li>
                 <li className="footer-link" >
-                  <a href="nowhere.com">Developers</a>
+                  <a href="#top">Developers</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Partners</a>
+                  <a href="#top">Partners</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Partner offers</a>
+                  <a href="#top">Partner offers</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">App Directory</a>
+                  <a href="#top">App Directory</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">AppBrand Certified</a>
+                  <a href="#top">AppBrand Certified</a>
                 </li>
               </ul>
             </li>
@@ -249,31 +249,31 @@ const Footer = () => {
               <div className="uppercase pb-2 font-semibold">Company</div>
               <ul>
                 <li className="footer-link" >
-                  <a href="nowhere.com">About us</a>
+                  <a href="#top">About us</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">News</a>
+                  <a href="#top">News</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Media kit</a>
+                  <a href="#top">Media kit</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Brand centre</a>
+                  <a href="#top">Brand centre</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Careers</a>
+                  <a href="#top">Careers</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">AppBrand shop</a>
+                  <a href="#top">AppBrand shop</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Engineering blog</a>
+                  <a href="#top">Engineering blog</a>
                 </li> 
                 <li className="footer-link">
-                  <a href="nowhere.com">Design blog</a>
+                  <a href="#top">Design blog</a>
                 </li>
                 <li className="footer-link">
-                  <a href="nowhere.com">Contact us</a>
+                  <a href="#top">Contact us</a>
                 </li> 
               </ul>
             </li>
@@ -282,22 +282,22 @@ const Footer = () => {
       </div>
       <div className="flex justify-between items-baseline py-8 mx-8">
         <div className="flex items-center">
-          <a href="nowhere.com" className="text-sky-800 font-semibold">Download AppBrand</a>
-          <a href="nowhere.com">
+          <a href="#top" className="text-sky-800 font-semibold">Download AppBrand</a>
+          <a href="#top">
             <img width="20" height="20" src={DownloadIcon} alt="download" />
           </a>
           <ul className="flex text-sm">
             <li className="pl-4">
-              <a href="nowhere.com">Privacy</a>
+              <a href="#top">Privacy</a>
             </li>
             <li className="pl-4">
-              <a href="nowhere.com">Terms</a>
+              <a href="#top">Terms</a>
             </li>
             <li className="pl-4">
-              <a href="nowhere.com">Cookie preferences</a>
+              <a href="#top">Cookie preferences</a>
             </li>
             <li className="pl-4">
-              <a href="nowhere.com">Your privacy choices</a>
+              <a href="#top">Your privacy choices</a>
             </li>
           </ul>
         </div>

@@ -25,7 +25,7 @@ const QuoteSection = () => {
               <span className="font-bold">John Doe</span>
               <span>Director of Technology Strategy and Architecture</span>
               <br />
-              <a href="nowhere.com" className="text-gray-700">See more customer stories</a>
+              <a href="#top" className="text-gray-700">See more customer stories</a>
             </div>
           </section>
         </div>

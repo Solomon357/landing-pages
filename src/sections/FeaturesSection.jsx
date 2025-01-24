@@ -51,7 +51,7 @@ const FeaturesSection = () => {
             <div className="w-[500px]">
               <h2 >{d.header}</h2>
               <p className="mb-4 text-lg">{d.para}</p>
-              <a className="feature-link hover:underline" href="nowhere.com"> Learn more about this feature</a>
+              <a className="feature-link hover:underline" href="#top"> Learn more about this feature</a>
             </div>
           </div>
         </Carousel.Item>

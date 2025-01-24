@@ -11,7 +11,7 @@ const DeepDiveSection = () => {
       </div>
       <div className="pb-6 px-[4vw]">
         <div className="grid grid-cols-4 gap-x-[1%] mb-4 mt-8 justify-center max-w-[1230px] mx-auto">
-          <a target="_blank" href="nowhere.com" className="link-card shadow-lg">
+          <a href="#top" className="link-card shadow-lg">
             <div>
               <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
                 <img src={stockImage} alt="stock" />
@@ -25,7 +25,7 @@ const DeepDiveSection = () => {
               <span className="text-[.875rem] text-sky-700">WATCH ON DEMAND</span>
             </div>
           </a>
-          <a target="_blank" href="nowhere.com" className="link-card shadow-lg">
+          <a href="#top" className="link-card shadow-lg">
             <div>
               <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
                 <img src={stockImage} alt="stock" />
@@ -39,7 +39,7 @@ const DeepDiveSection = () => {
               <span className="text-[.875rem] text-sky-700">READ MORE</span>
             </div>
           </a>
-          <a target="_blank" href="nowhere.com" className="link-card shadow-lg">
+          <a href="#top" className="link-card shadow-lg">
             <div>
               <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
                 <img src={stockImage} alt="stock" />
@@ -53,7 +53,7 @@ const DeepDiveSection = () => {
               <span className="text-[.875rem] text-sky-700">READ MORE</span>
             </div>
           </a>
-          <a target="_blank" href="nowhere.com" className="link-card shadow-lg">
+          <a href="#top" className="link-card shadow-lg">
             <div>
               <figure aria-roledescription="region" aria-label="Ready for the future of AI in Slack?, Watch on demand">
                 <img src={stockImage} alt="stock" />

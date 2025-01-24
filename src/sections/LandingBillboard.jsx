@@ -18,11 +18,11 @@ const LandingBillboard = () => {
       </h1>
       <div>
         <div className="flex justify-center">
-          <a href="nowhere.com" className="buttons bg-red-400 text-white hover:bg-red-500">
+          <a href="#top" className="buttons bg-red-400 text-white hover:bg-red-500">
             SIGN UP WITH EMAIL ADDRESS 
           </a>
           <div className="ml-2 relative">
-            <a href="nowhere.com" className="inline-block box-border font-bold text-[.875rem] rounded-[4px] transition-all text-white bg-blue-600 hover:bg-blue-700 cursor-pointer">
+            <a href="#top" className="inline-block box-border font-bold text-[.875rem] rounded-[4px] transition-all text-white bg-blue-600 hover:bg-blue-700 cursor-pointer">
               <div className="absolute top-1 bottom-1 left-1 bg-white w-12 h-12 p-[.875rem] rounded-[4px]">
                 <img src={GoogleIcon} alt="google" />
               </div>
